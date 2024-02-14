@@ -6,7 +6,7 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
-# Defines the SCOPE and SHEET_ID variables to specify the adress to access the spreadsheet
+# Defines the SCOPE and SHEET_ID variables to specify the adress to reference the spreadsheet
 SCOPE = ["https://www.googleapis.com/auth/spreadsheets"]
 SHEET_ID = "106kadSqmzl8ufnpe1qFTtiYCUgsWRZcskxGydGCq1Fc"
 
