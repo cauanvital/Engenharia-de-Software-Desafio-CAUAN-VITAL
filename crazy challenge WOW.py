@@ -1,4 +1,4 @@
-# Importing the required extensions to execute the script
+# Imports the required extensions to execute the script
 import os
 from google.auth.transport.requests import Request
 from google.oauth2.credentials import Credentials
